@@ -1,0 +1,471 @@
+.checkout-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .address-payment-container {
+    width: 74%;
+  }
+  
+  .summary-container {
+    width: 25%;
+    padding-top: 5px;
+  }
+  
+  .summary-container > div:first-child > .MuiCardContent-root {
+    padding: 25px;
+  }
+  
+  .summary-container > div:first-child > .MuiCardContent-root > p:first-child {
+    color: black;
+    font-size: 28px;
+    margin-bottom: 30px;
+    line-height: 0.8;
+  }
+  
+  .summary-container > div:first-child > .MuiCardContent-root > p:nth-child(2) {
+    font-size: 18px;
+    color: #666666;
+  }
+  
+  .summary-container
+    > div:first-child
+    > .MuiCardContent-root
+    > ul
+    > .MuiListItem-gutters {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .summary-container > div:first-child > .MuiCardContent-root > ul {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  }
+  
+  .summary-container > div:first-child > .MuiCardContent-root > .MuiDivider-root {
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .summary-container
+    > div:first-child
+    > .MuiCardContent-root
+    > .MuiButtonBase-root {
+    margin-top: 20px;
+  }
+  
+  .summary-container
+    > .MuiPaper-root
+    > .MuiCardContent-root
+    > .MuiList-root
+    > .MuiListItem-root {
+    align-items: flex-start;
+  }
+  
+  .checkout-item-section1 > .fa-stop-circle {
+    width: 30px;
+  }
+  
+  .checkout-item-section2 {
+    width: 45%;
+    display: flex;
+    padding-right: 5px;
+  }
+  
+  .checkout-item-section3 {
+    width: 5%;
+    padding-right: 5px;
+  }
+  
+  .checkout-item-section4 {
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .checkout-item-name {
+    color: grey;
+    font-size: 16px;
+  }
+  
+  .checkout-item-price > .fa-rupee-sign {
+    font-size: 14px;
+    -webkit-text-stroke: 0.2px white;
+  }
+  
+  .checkout-item-price {
+    color: grey;
+    font-size: 15px;
+  }
+  
+  .checkout-net-amount {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .checkout-net-amount > p {
+    font-size: 17px;
+  }
+  
+  .checkout-net-amount > p > .fa-rupee-sign {
+    color: grey;
+  }
+  
+  .order-button {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .address-container {
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .no-address-msg {
+    font-size: 15px;
+    color: #9a9a9a;
+  }
+  
+  .address-list,
+  .no-address-msg {
+    min-height: 320px;
+  }
+  
+  .address-payment-container > .MuiPaper-root > .MuiStep-root > .MuiStepContent-root {
+    padding-left: 22px;
+  }
+  
+  .address-payment-container > .MuiStepper-root {
+    padding-top: 0;
+  }
+  
+  .address-container > .button-actions > .MuiButton-containedPrimary {
+    margin-left: 10px;
+  }
+  
+  .address-container > .MuiGridList-root > .address-card {
+    padding: 15px !important;
+    min-height: 230px !important;
+    height: unset !important;
+    margin-bottom: 30px !important;
+  }
+  
+  .address-container > .MuiGridList-root > .active {
+    box-shadow: 1.5px 1.5px 2px 1px #f23c71 !important;
+  }
+  
+  .address-container > .MuiGridList-root > li {
+    width: 31% !important;
+  }
+  
+  .address-card  {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  
+  .address-card > .MuiGridListTile-tile> .check-icon {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .address-card > .MuiGridListTile-tile> .MuiTypography-body1 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .address-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 35px;
+  }
+  
+  .address-form > .MuiFormControl-root {
+    width: 300px;
+  }
+  
+  .save-address-button {
+    background-color: #f50b57 !important;
+    color: #ffffff !important;
+    width: 150px !important;
+    margin-top: 20px !important;
+  }
+  
+  .payment-step > .MuiStepContent-root {
+    margin-top: 25px;
+    padding-left: 30px;
+  }
+  
+  .payment-step-content 
+    > .MuiCollapse-container 
+    > .MuiCollapse-wrapper 
+    > .MuiCollapse-wrapperInner 
+    > .MuiFormControl-root 
+    > legend {
+    margin-bottom: 10px;
+  }
+  
+  .payment-step-content 
+    > .MuiCollapse-container 
+    > .MuiCollapse-wrapper 
+    > .MuiCollapse-wrapperInner 
+    > .MuiFormControl-root 
+    > .MuiFormGroup-root
+    > .MuiFormControlLabel-root {
+    margin-bottom: 5px;
+  }
+  
+  .button-actions {
+    margin-top: 10px;
+  }
+  
+  .button-actions > .MuiButton-text {
+    margin-right: 15px;
+  }
+  
+  .view-summary > .MuiTypography-body1 {
+    margin-left: 30px;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  
+  .view-summary > .MuiButton-text {
+    margin-left: 40px;
+  }
+  
+  .view-summary > .MuiButton-root {
+    font-size: 16px;
+  }
+  
+  .MuiGridListTile-tile {
+    height: unset !important;
+  }
+  
+  .MuiMenu-paper {
+    height: 154px !important;
+    max-height: unset !important;
+  }
+  
+  .tabs > .MuiTabs-scroller > .MuiTabs-flexContainer > .MuiTab-root {
+    min-width: 180px !important;
+    padding: 12px 25px !important;
+  }
+  
+  .tabs > .MuiTabs-scroller > .MuiTabs-flexContainer > .MuiButtonBase-root {
+    font-size: 13px;
+  }
+  
+  #menu- > .MuiPaper-root {
+    box-shadow: 0 4px 8px 4px rgb(0 0 0 / 30%);
+    margin-bottom: 3px;
+  }
+  
+  #simple-tabpanel-1 {
+    margin-left: 10px;
+  }
+  
+  #checkout-snackbar>.MuiPaper-root>.MuiSnackbarContent-message {
+    width: 75%;
+  }
+  
+  @media only screen and (max-width: 599px) {
+    .MuiMenu-paper {
+      height: 200px !important;
+    }
+  }
+  @media only screen and (max-width: 1320px) {
+    .address-container > .MuiGridList-root > li {
+      width: 30.5% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 1220px) {
+    .address-container > .MuiGridList-root > li {
+      width: 30% !important;
+    }
+  
+    .address-payment-container {
+      width: 72%;
+    }
+  
+    .summary-container {
+      width: 27%;
+    }
+  }
+  
+  @media only screen and (max-width: 1079px) {
+    .address-container > .MuiGridList-root > li {
+      width: 30% !important;
+    }
+  
+    .address-card > .MuiGridListTile-tile> .MuiTypography-body1 {
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+  }
+  
+  @media only screen and (max-width: 1040px) {
+    .address-container > .MuiGridList-root > li {
+      width: 29% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .address-payment-container {
+      width: 71%;
+    }
+  
+    .summary-container {
+      width: 28%;
+    }
+  
+    .summary-container > div:first-child > .MuiCardContent-root > p:first-child {
+      font-size: 25px;
+    }
+  
+    .summary-container > div:first-child > .MuiCardContent-root {
+      padding: 15px;
+    }
+  
+    .summary-container > div:first-child > .MuiCardContent-root > p:nth-child(2) {
+      font-size: 17px;
+    }
+  
+    .checkout-item-name {
+      font-size: 15px;
+    }
+  
+    .checkout-item-price > .fa-rupee-sign {
+      font-size: 13px;
+    }
+  
+    .checkout-item-price {
+      font-size: 14px;
+    }
+  
+    .checkout-net-amount > p {
+      font-size: 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 835px) {
+    .address-card {
+      margin-left: 8px;
+    }
+  
+    .address-payment-container {
+      width: 70%;
+    }
+  
+    .summary-container {
+      width: 29%;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .checkout-container {
+      flex-direction: column;
+      padding: unset;
+      align-items: center;
+    }
+  
+    .address-payment-container {
+      width: 100% !important;
+    }
+  
+    .summary-container {
+      width: 90% !important;
+      margin-bottom: 20px;
+    }
+  
+    .address-payment-container > .MuiStepper-root {
+      padding-top: 10px;
+    }
+  
+    .payment-step-content 
+      > .MuiCollapse-container 
+      > .MuiCollapse-wrapper 
+      > .MuiCollapse-wrapperInner 
+      > .MuiFormControl-root 
+      > legend {
+      font-size: 15px;
+    }
+    
+    .payment-step-content 
+      > .MuiCollapse-container 
+      > .MuiCollapse-wrapper 
+      > .MuiCollapse-wrapperInner 
+      > .MuiFormControl-root 
+      > .MuiFormGroup-root
+      > .MuiFormControlLabel-root {
+      margin-bottom: 0;
+    }
+  
+    .payment-step-content 
+      > .MuiCollapse-container 
+      > .MuiCollapse-wrapper 
+      > .MuiCollapse-wrapperInner 
+      > .MuiFormControl-root 
+      > .MuiFormGroup-root
+      > .MuiFormControlLabel-root
+      > .MuiTypography-body1 {
+        font-size: 15px;
+    }
+  
+    .view-summary > .MuiTypography-body1 {
+      font-size: 18px;
+    }
+  
+    .view-summary > .MuiButton-text {
+      margin-bottom: 20px;
+    }
+    
+    .view-summary > .MuiButton-root {
+      font-size: 15px;
+    }
+  
+    .address-container > .MuiGridList-root > .address-card {
+      width: 47% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 675px) {
+    .address-container > .MuiGridList-root > .address-card{
+      width: 46% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 455px) {
+    .tabs > .MuiTabs-scroller > .MuiTabs-flexContainer > .MuiTab-root {
+      min-width: 120px !important;
+      padding: 12px 15px !important;
+    }
+  
+    .address-card {
+      margin-left: 5px;
+    }
+  
+  }
+  
+  @media only screen and (max-width: 405px) {
+    .address-form > .MuiFormControl-root {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 380px) {
+    .tabs > .MuiTabs-scroller > .MuiTabs-flexContainer > .MuiTab-root {
+      padding: 12px 0 12px 10px !important;
+    }
+  
+    .tabs > .MuiTabs-scroller > .MuiTabs-flexContainer > .MuiButtonBase-root {
+      font-size: 11px;
+    }
+  }
+  
+  @media only screen and (max-width: 340px) {
+    .address-payment-container > .MuiStepper-root {
+     padding: 10px !important;
+    }
+  }
